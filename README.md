@@ -40,15 +40,20 @@ Responsibility	       -              Description
 
 📦 Used Python Packages and Libraries:
 
-Package	                               Purpose
+Package	                -               Purpose
 --------------------------------------------------
 
 1. ultralytics              -          For loading and running YOLOv8 object detection.
+ 
 2. cv2 (OpenCV)	            -          For handling video capture, frame processing, and visualization.
-3.random	                  -          For generating distinct colors for object labels.
-4.google.colab.patches	    -          For rendering OpenCV frames inside a Colab notebook.
-5.IPython.display	          -          For clearing output and displaying updated frames in a notebook loop.
-6.torch	                    -          Backend for running YOLOv8 model efficiently on GPU.
+
+3. random	                  -          For generating distinct colors for object labels.
+
+4. google.colab.patches	    -          For rendering OpenCV frames inside a Colab notebook.
+
+5. IPython.display	          -        For clearing output and displaying updated frames in a notebook loop.
+
+6. torch	                    -        Backend for running YOLOv8 model efficiently on GPU.
 
 
 📌 Summary:
