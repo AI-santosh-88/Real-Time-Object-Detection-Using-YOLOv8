@@ -36,6 +36,25 @@ Responsibility	       -              Description
 
 6. Resource Management   	-           Handle video stream correctly and release resources after processing.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📦 Used Python Packages and Libraries:
+
+Package	                               Purpose
+--------------------------------------------------
+
+1. ultralytics              -          For loading and running YOLOv8 object detection.
+2. cv2 (OpenCV)	            -          For handling video capture, frame processing, and visualization.
+3.random	                  -          For generating distinct colors for object labels.
+4.google.colab.patches	    -          For rendering OpenCV frames inside a Colab notebook.
+5.IPython.display	          -          For clearing output and displaying updated frames in a notebook loop.
+6.torch	                    -          Backend for running YOLOv8 model efficiently on GPU.
+
+
+📌 Summary:
+This project demonstrates an end-to-end real-time object detection pipeline using YOLOv8 in a Google Colab environment. It captures frames from a video, runs inference, draws bounding boxes for each detected object, and displays annotated frames in a loop. The solution is flexible and scalable, making it applicable in several business contexts, especially where automation of visual tasks is valuable.
+
+
 
 
 
