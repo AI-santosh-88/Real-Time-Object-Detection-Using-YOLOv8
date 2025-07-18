@@ -16,6 +16,7 @@ Businesses and organizations increasingly rely on computer vision to automate ta
 
 
 📄 Project Description:
+
 This project uses the Ultralytics YOLOv8 model to detect and classify objects from a video file. It runs on Google Colab, utilizing PyTorch with CUDA acceleration to process video frames in real-time. Detected objects are labeled with class names and bounding boxes, and the results are displayed within the notebook.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
