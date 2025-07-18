@@ -57,6 +57,7 @@ Package	                -               Purpose
 
 
 📌 Summary:
+
 This project demonstrates an end-to-end real-time object detection pipeline using YOLOv8 in a Google Colab environment. It captures frames from a video, runs inference, draws bounding boxes for each detected object, and displays annotated frames in a loop. The solution is flexible and scalable, making it applicable in several business contexts, especially where automation of visual tasks is valuable.
 
 
