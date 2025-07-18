@@ -25,10 +25,15 @@ This project uses the Ultralytics YOLOv8 model to detect and classify objects fr
 Responsibility	       -              Description
 -------------------------------------------------
 Model Integration	      -             Load and utilize a pretrained YOLOv8 model using the Ultralytics framework.
+
 Data Input	            -             Read and process video input frame-by-frame using OpenCV.
+
 Object Detection	      -             Apply the YOLOv8 model on each frame and extract bounding boxes, class IDs, and confidence scores.
+
 Visualization	          -             Draw bounding boxes and class labels on video frames using OpenCV.
+
 Real-Time Display     	-             Continuously display processed video frames inside the Colab notebook.
+
 Resource Management   	-             Handle video stream correctly and release resources after processing.
 
 
